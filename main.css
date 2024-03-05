@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+    font-family: "Dosis", sans-serif;
+    background-image: linear-gradient(to bottom right, #1D367C, #3E1151);
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.cabecalho h1 {
+    font-size: 35px;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.cabecalho img {
+    height: 50px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input input {
+    font-family: "Dosis", sans-serif;
+    font-size: 22px;
+    padding-left: 15px;
+    width: 300px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #EFF6E0;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.input button {
+    cursor: pointer;
+    font-family: "Dosis", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #FF643C;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: all ease .5s;
+}
+
+.input button:hover {
+    background-color: #157A6E;
+    color: #EFF6E0;
+}
+
+.lista ul {
+}
+
+.lista ul li {
+    cursor: pointer;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 2px;
+    transition: all ease .2s;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.lista ul li:hover {
+    background-color: #FF643C;
+    color: #FFF;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 2px;
+}
