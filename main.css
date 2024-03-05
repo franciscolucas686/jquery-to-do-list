@@ -5,7 +5,6 @@
 }
 
 body {
-    background-color: red;
     font-family: "Dosis", sans-serif;
     background-image: linear-gradient(to bottom right, #1D367C, #3E1151);
     height: 100vh;
@@ -15,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -80,7 +79,10 @@ body {
     color: #EFF6E0;
 }
 
-.lista ul {
+.input button:focus {
+    outline: none;
+    background-color: #157A6E;
+    color: #EFF6E0;
 }
 
 .lista ul li {
@@ -100,4 +102,12 @@ body {
     border-radius: 20px;
     padding: 15px;
     margin: 2px;
+}
+
+.finalizado {
+    text-decoration: line-through;
+}
+
+.nao-finalizado {
+    text-decoration: none;
 }
