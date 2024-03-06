@@ -7,8 +7,8 @@ $(document).ready(function () {
         $(novoItem).appendTo('ul');
         $('#nome-tarefa').val('');
 
-        $('ul').on('click', 'li', function(){
-            $(this).toggleClass('finalizado')
-        })
     });
+    $('ul').on('click', 'li',function(){
+        $(this).toggleClass('finalizado')
+    })
 });
